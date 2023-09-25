@@ -1329,10 +1329,10 @@ dependencies = [
 [[package]]
 name = "csv"
 version = "1.1.6"
-source = "git+https://github.com/ankitects/rust-csv.git?rev=1c9d3aab6f79a7d815c69f925a46a4590c115f90#1c9d3aab6f79a7d815c69f925a46a4590c115f90"
+source = "git+https://github.com/ankitects/rust-csv.git?rev=74721cd1e0f6d1b4dca4967d606fef0148a94d53#74721cd1e0f6d1b4dca4967d606fef0148a94d53"
 dependencies = [
  "bstr",
- "csv-core 0.1.10 (git+https://github.com/ankitects/rust-csv.git?rev=1c9d3aab6f79a7d815c69f925a46a4590c115f90)",
+ "csv-core 0.0.99",
  "itoa",
  "ryu",
  "serde",
@@ -1344,7 +1344,7 @@ version = "1.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "626ae34994d3d8d668f4269922248239db4ae42d538b14c398b74a52208e8086"
 dependencies = [
- "csv-core 0.1.10 (registry+https://github.com/rust-lang/crates.io-index)",
+ "csv-core 0.1.10",
  "itoa",
  "ryu",
  "serde",
@@ -1352,9 +1352,8 @@ dependencies = [
 
 [[package]]
 name = "csv-core"
-version = "0.1.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2b2466559f260f48ad25fe6317b3c8dac77b5bdb5763ac7d9d6103530663bc90"
+version = "0.0.99"
+source = "git+https://github.com/ankitects/rust-csv.git?rev=74721cd1e0f6d1b4dca4967d606fef0148a94d53#74721cd1e0f6d1b4dca4967d606fef0148a94d53"
 dependencies = [
  "memchr",
 ]
@@ -1362,7 +1361,8 @@ dependencies = [
 [[package]]
 name = "csv-core"
 version = "0.1.10"
-source = "git+https://github.com/ankitects/rust-csv.git?rev=1c9d3aab6f79a7d815c69f925a46a4590c115f90#1c9d3aab6f79a7d815c69f925a46a4590c115f90"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b2466559f260f48ad25fe6317b3c8dac77b5bdb5763ac7d9d6103530663bc90"
 dependencies = [
  "memchr",
 ]
